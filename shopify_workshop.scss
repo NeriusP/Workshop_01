@@ -572,15 +572,15 @@ position: relative;
 }
 
 .iskeltas-1 {
-    background: url('img/Hacha_01.webp');
+    background: url('http://127.0.0.1:5500/shopify_workshop/img/Hacha_01.webp');
 }
 
 .iskeltas-2 {
-    background: url('img/Flashlight01.jpg');
+    background: url('http://127.0.0.1:5500/shopify_workshop/img/Flashlight01.jpg');
 }
 
 .iskeltas-3 {
-    background: url('img/Raincoat03.webp');
+    background: url('http://127.0.0.1:5500/shopify_workshop/img/Raincoat03.webp');
 }
 
 
@@ -787,15 +787,15 @@ position: relative;
 }
 
 .img-1 {
-    background-image: url(img/img-1-1200.jpg);
+    background-image: url(http://127.0.0.1:5500/shopify_workshop/img/img-1-1200.jpg);
 }
 
 .img-2 {
-    background-image: url(img/img-2-1200.jpg);
+    background-image: url(http://127.0.0.1:5500/shopify_workshop/img/img-2-1200.jpg);
 }
 
 .img-3 {
-    background-image: url(img/img-3-1200.jpg);
+    background-image: url(http://127.0.0.1:5500/shopify_workshop/img/img-3-1200.jpg);
 }
 
 /* -----------------------------Iškelta kolekcija------------------------ */
@@ -922,48 +922,48 @@ ul.kolekcijos_kategorijos li a sup {
  }
 
  .kolekcijos_objektai .kolekcijos_objektas .turinys .kol-image-container.kol1::after {
-    background: url('img/vaso_02.webp');
+    background: url('http://127.0.0.1:5500/shopify_workshop/img/vaso_02.webp');
     background-size: contain;
     background-repeat: no-repeat;
  }
 
  .kolekcijos_objektai .kolekcijos_objektas .turinys .kol-image-container.kol2::after {
-    background: url('img/hacha_02.webp');
+    background: url('http://127.0.0.1:5500/shopify_workshop/img/hacha_02.webp');
     background-size: contain;
     background-repeat: no-repeat;
  }
 
  .kolekcijos_objektai .kolekcijos_objektas .turinys .kol-image-container.kol3::after {
-    background: url('img/Raincoat04.webp');
+    background: url('http://127.0.0.1:5500/shopify_workshop/img/Raincoat04.webp');
     background-size: contain;
     background-repeat: no-repeat;
  }
 
  .kolekcijos_objektai .kolekcijos_objektas .turinys .kol-image-container.kol4::after {
-    background: url('img/cuerda02.webp');
+    background: url('http://127.0.0.1:5500/shopify_workshop/img/cuerda02.webp');
     background-size: contain;
     background-repeat: no-repeat;
  }
 
  .kolekcijos_objektai .kolekcijos_objektas .turinys .kol-image-container.kol5::after {
-    background: url('img/Cantimplora_06.webp');
+    background: url('http://127.0.0.1:5500/shopify_workshop/img/Cantimplora_06.webp');
     background-size: contain;
     background-repeat: no-repeat;
  }
 
  .kolekcijos_objektai .kolekcijos_objektas .turinys .kol-image-container.kol6::after {
-    background: url('img/Abrigo02.webp');
+    background: url('http://127.0.0.1:5500/shopify_workshop/img/Abrigo02.webp');
     background-size: contain;
     background-repeat: no-repeat;
  }
  .kolekcijos_objektai .kolekcijos_objektas .turinys .kol-image-container.kol7::after {
-    background: url('img/SleepingBag_02.webp');
+    background: url('http://127.0.0.1:5500/shopify_workshop/img/SleepingBag_02.webp');
     background-size: contain;
     background-repeat: no-repeat;
  }
 
  .kolekcijos_objektai .kolekcijos_objektas .turinys .kol-image-container.kol8::after {
-    background: url('img/cuchillo02.webp');
+    background: url('http://127.0.0.1:5500/shopify_workshop/img/cuchillo02.webp');
     background-size: contain;
     background-repeat: no-repeat;
  }
@@ -1156,7 +1156,7 @@ ul.kolekcijos_kategorijos li a sup {
 .slideshow .image-container{
     width: 100%;
     height: 100%;
-    background-image: url('img/slideshow_nieve2_1512x.jpg');
+    background-image: url('http://127.0.0.1:5500/shopify_workshop/img/slideshow_nieve2_1512x.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1690,7 +1690,7 @@ form input, form textarea, form select, form label {
 // }
 
 .zemelapis {
-   height: 523px;
+   // height: 523px;
    .background {
    background: #f3f0ee;
    height: 100%;
@@ -1704,6 +1704,10 @@ form input, form textarea, form select, form label {
       right: 0;
       bottom: 0;
       height: 100%;
+    }
+
+    .gmap {
+      height: 523px;
     }
 
     .info {
@@ -1744,7 +1748,7 @@ form input, form textarea, form select, form label {
 }
 
 @media screen and (max-width: 959px) {
-   .zemelapis {
+   .gmap {
       height: 673px;
    }
 
@@ -2130,4 +2134,4 @@ form input, form textarea, form select, form label {
 }
 
 @import url("grid.css"); 
-// @import url('grid_alt.css'); 
+@import url('grid_alt.css'); 
